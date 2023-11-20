@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "447779745097",
+    "project_id": "fitnesshealthmobile",
+    "storage_bucket": "fitnesshealthmobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447779745097:android:65bf32133f7db2d7bc3e98",
+        "android_client_info": {
+          "package_name": "com.example.fitnesshealthmobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWRqdeiWyO-oNTiw6xb34OL5Xk804E-fc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

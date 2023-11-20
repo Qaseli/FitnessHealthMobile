@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sports"
+    android:background="@color/blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView86"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="6 Best Workouts For \nFat Loss, Ranked"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="407dp"
+        android:layout_height="150dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mov2"
+        />
+
+    <TextView
+        android:id="@+id/textView87"
+        android:layout_width="375dp"
+        android:layout_height="74dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFF00"
+        android:text="When coupled with healthy food choices, regular exercise can help you reach your fat-loss goal. However, with so many exercises to choose from, picking the right ones for your fat-loss program can be daunting."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.287" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white">
+
+
+
+            <ImageButton
+                android:id="@+id/btnIsp1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+
+                android:src="@drawable/msp1" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="150dp"
+                android:padding="20dp"
+                android:text="Number 1: Burpees"
+
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-15dp"
+                android:padding="20dp"
+
+                android:text="If you neither want to step out nor splurge money on equipment then nothing can beat burpees. It is ‘THE’ magic pill that has the power to show immaculate weight loss results in no time. And that’s not all, according to a study published in the journal Frontiers in Physiology, HIIT exercises like burpees help in improving oxygen intake, improve body compassion, and build endurance. For major weight loss, at least do 50 to 100 burpees in a day. "
+
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/blue"
+        android:layout_margin="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/btnIsp2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+
+                android:src="@drawable/mmsp2" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="100dp"
+                android:padding="20dp"
+                android:text="Number 2: Frog jump"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-15dp"
+                android:padding="20dp"
+
+                android:text="Who would have thought that this childhood favourite will turn out to be one of the best cardio exercises. Two things that make this move an absolute fat burner: forward jumps and the range of squats it forces you to do as you go all the way down.
+
+Doing 20 reps and 4 sets of frog jumps are all you need at least for a month to lose weight."
+
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/btnIsp3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/msp3" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="100dp"
+                android:padding="20dp"
+                android:text="Number 3: Jumping squats
+"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-15dp"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:text="From your core to toe, jumping squats will work to banish fat pockets from each and every corner of your body. This one is a mix and mash of cardio and bodyweight training and has dual benefits for your body. Plus, it will keep your heart racing which will lead to calorie burn.  Do 4 sets of 25 jumping squats to feel the difference."
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/blue"
+        android:layout_margin="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/btnIsp4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/msp4" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="140dp"
+                android:padding="20dp"
+                android:text="Number 4: Sprint"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-15dp"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:text="Even jogging and running for hours might not give you the results as doing 10 sets of 200 metre full-power sprints will. Basically, in a sprint you give it  your all as you run from one to another at high speed. And that’s why it is one of the best ways to lose weight. In case you have access to a treadmill then you can do 10 reps of one-minute sprints. Trust us, sprints will burn that fat like a blow torch. "
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/blue"
+        android:layout_margin="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/btnIsp5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/msp5" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="120dp"
+                android:padding="20dp"
+                android:text="Number 5: Kettlebell swings"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-15dp"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:text="Many people put a lot of trust in kettlebell swings and they are absolutely right. This is a low-impact exercise which minimizes wear and tear in the body. All you need to focus is on the movement and the weight of the kettlebell so that it doesn’t mess up with your shoulder. A 4- to 6-kilo kettlebell is good enough to swing. Do 50 reps and 4 sets to see results."
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/blue"
+        android:layout_margin="20dp"
+        app:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+
+            android:background="@color/white">
+
+            <ImageButton
+                android:id="@+id/btnIsp6"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="0dp"
+                android:layout_alignParentTop="true"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+
+                android:src="@drawable/msp6" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="140dp"
+                android:padding="20dp"
+                android:text="Number 6: Skipping rope"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="-15dp"
+                android:padding="20dp"
+                android:textSize="14dp"
+                android:text="Skipping or jumping rope is simple and effective, but it demands reps and takes time to show impact. By this we mean that just doing 100 will not make much of a difference. You need to pull off at least 1000 to 1500 skips to make it count. Of course not in one go! You can break them in sets accordingly, but nothing less than 200 skips. So for weight loss, you can do 200 reps and 7 sets."
+                />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
+
+    </ScrollView>

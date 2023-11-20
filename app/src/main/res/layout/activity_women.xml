@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#22347F"
+    tools:context=".Women">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="366dp"
+        android:layout_height="569dp"
+        android:background="@drawable/logobg"
+        android:fontFamily="cursive"
+        android:text="."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <Button
+        android:id="@+id/btnDP3"
+        android:layout_width="404dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="DIET PLANNING"
+        android:textAlignment="textEnd"
+        android:textColor="#22347F"
+        app:cornerRadius="0dp"
+        app:icon="@drawable/ic_arrow"
+        app:iconPadding="230dp"
+        app:iconTint="#22347F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnD1"
+        android:layout_width="240dp"
+        android:layout_height="52dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="serif"
+        android:text="DAY 1"
+        android:textAlignment="center"
+        android:textColor="#22347F"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <Button
+        android:id="@+id/btnD4"
+        android:layout_width="232dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="serif"
+        android:text="DAY 4 "
+        android:textAlignment="center"
+        android:textColor="#22347F"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <Button
+        android:id="@+id/btnD3"
+        android:layout_width="232dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="serif"
+        android:text="DAY 3"
+        android:textAlignment="center"
+        android:textColor="#22347F"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.581" />
+
+    <Button
+        android:id="@+id/btnD2"
+        android:layout_width="233dp"
+        android:layout_height="59dp"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="serif"
+        android:text="DAY 2"
+        android:textAlignment="center"
+        android:textColor="#22347F"
+        android:textStyle="bold"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="283dp"
+        android:layout_height="140dp"
+        android:background="#FFFFFF"
+        android:fontFamily="serif"
+        android:text="\n Diet Planning "
+        android:textAlignment="center"
+        android:textColor="#22347F"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="For Women"
+        android:textAlignment="center"
+        android:textColor="#22347F"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.121" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
